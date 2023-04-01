@@ -18,7 +18,15 @@ Google Cloud Dataflow is a fully-managed, serverless data processing service on 
 
 <!--[Download File](https://github.com/ibasloom/GCP-Dataflow/blob/main/Code/input.csv)-->
 
-[Download CSV](https://github.com/ibasloom/GCP-Dataflow/blob/main/Code/input.csv){: .btn .btn-green }
+<!--Start Code For Download-->
+import requests
+
+url = 'https://raw.githubusercontent.com/ibasloom/GCP-Dataflow/blob/main/Code/input.csv'
+response = requests.get(url)
+
+with open('input.csv', 'wb') as f:
+    f.write(response.content)
+<!--End-->
 
 
 ```javascript

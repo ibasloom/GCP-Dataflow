@@ -16,7 +16,11 @@ Google Cloud Dataflow is a fully-managed, serverless data processing service on 
 
 ### [Specify a network and subnetwork](https://cloud.google.com/dataflow/docs/guides/specifying-networks)
 
-[Download File](https://github.com/ibasloom/GCP-Dataflow/blob/main/Code/input.csv)
+<!--[Download File](https://github.com/ibasloom/GCP-Dataflow/blob/main/Code/input.csv)-->
+
+<a href="https://github.com/ibasloom/GCP-Dataflow/blob/main/Code/input.csv" download>
+  <button>Download File</button>
+</a>
 
 ```javascript
 
